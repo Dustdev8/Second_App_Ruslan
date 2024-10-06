@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
+            //nothing xd
             }
         });
     }
@@ -75,9 +75,7 @@ public class MainActivity extends AppCompatActivity {
     public void count_on_btn_click(View view) {
         String userInput = this.user_input.getText().toString().trim();
         String emptyInput = getString(R.string.empty_input);
-        String wordsOptionWarning = getString(R.string.count_words_warning);
         String charsOption = getString(R.string.count_chars);
-        String charsOptionWarning = getString(R.string.count_chars_warning);
 
         if (TextUtils.isEmpty(userInput)) {
             Toast.makeText(this, emptyInput, Toast.LENGTH_SHORT).show();
