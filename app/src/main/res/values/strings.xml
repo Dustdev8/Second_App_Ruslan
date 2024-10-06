@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Second_App_Ruslan</string>
+    <string name="count_btn">Count</string>
+    <string name="count_word">0</string>
+    <string-array name="counting_options">
+        <item>Chars</item>
+        <item>Words</item>
+    </string-array>
+    <string name="count_chars">Chars</string>
+    <string name="empty_input">Input field is empty</string>
+    <string name="count_words_warning">Counting Words</string>
+    <string name="count_chars_warning">Counting Chars</string>
+
+
+</resources>
